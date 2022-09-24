@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 02</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css" />
+    <script src="https://kit.fontawesome.com/63e01550c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="container flex">
+            <a href="#" class="flex brand">
+                <img src="assets/media/logo.png" alt="brand logo" width="70px" height="60px"/>
+                <strong>Journey</strong>
+            </a>
+            <nav>
+                <ul class="flex nav-menu">
+                    <li class="nav-menu-item">
+                        <a class="active" href="#">home</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="#destination">top destination</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="#recommended">recommended places</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="#contact">contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- hero -->
+            <section class="hero">
+                <h1 class="hero-heading">Let's Begin</h1>
+                <div class="flex justify-center column">
+                    <div class="dot"></div>
+                    <div class="dot dot-active"></div>
+                    <div class="dot"></div>
+                </div>
+                    <h4 class="hero-subheading">We assist you to choose the best.</h4>
+                <div class="icon-box">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <form action="" class="flex item-start">
+                    <fieldset class="flex-46">
+                        <label for="destination">Choose your destination</label>
+                        <input 
+                        class="form-control"
+                         type="text"
+                         id="destination" 
+                         name="destination"
+                         placeholder="Type your destination"
+                        />
+                        <div class="flex margin-top">
+                            <div>
+                                <label for="check-in">Check In Date</label>
+                               <input
+                                    class="form-control"
+                                    name="check-in" 
+                                    type="date" 
+                                    placeholder="Check In"
+                                    id="check-in" 
+                                />
+                            </div>
+                           <div>
+                                <label for="check-out">Check Out Date</label>
+                               <input 
+                                    class="form-control"
+                                    name="check-out" 
+                                    type="date" 
+                                    placeholder="Check Out" 
+                                    id="check-out" 
+                                />
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="flex-46">
+                        <div class="flex">
+                            <div>
+                                <label for="room">How Many Rooms?</label>
+                                <select class="form-control" name="room" id="room">
+                                    <option value="">1 Room</option>
+                                    <option value="">2 Room</option>
+                                    <option value="">3 Room</option>
+                                    <option value="">4 Room</option>
+                                    <option value="">5 Room</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="Adult">Adult</label>
+                                <select class="form-control" name="Adult" id="Adult">
+                                    <option value="">1 </option>
+                                    <option value="">2 </option>
+                                    <option value="">3 </option>
+                                    <option value="">4 </option>
+                                    <option value="">5 </option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="child">children</label>
+                                <select class="form-control" name="child" id="child">
+                                    <option value="">0 </option>
+                                    <option value="">1</option>
+                                    <option value="">2 </option>
+                                    <option value="">3 </option>
+                                    <option value="">4 </option>
+                                </select>
+                            </div>
+                        </div>
+                        <input class="btn btn-primary margin-top" type="submit" value="Check Availability" />
+                    </fieldset>
+                </form>
+            </section>
+            <!-- about -->
+            <section class="padding text-center about">
+               <div class="about-wrapper">
+                <h2>Your <strong>journey</strong> is your priorty</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sunt dignissimos quod quasi laborum ipsam velit perspiciatis laboriosam repellendus architecto voluptate adipisci aliquid corrupti repudiandae ratione nihil, temporibus voluptatem corporis?</P>
+                <a class="btn btn-primary" href="#">continue Explore</a>
+               </div>
+            </section>
+            <!-- top destination -->
+            <section id="destination">
+                <article class="flex article">
+                    <div class="flex-50 font-0 article-col-left">
+                        <img src="assets/media/p5.jpg" alt="" width="600px" height="400px">
+                        <div class="flex justify-end nav-btn-container nav-btn-container-right">
+                            <div class="nav-btn center">
+                                <div class="nav-btn-icon center">
+                                    <img src="assets/media/left-arrow.png" alt="">
+                                </div>
+                            </div>
+                            <div class="nav-btn center">
+                                <div class="nav-btn-icon center">
+                                    <img src="assets/media/right-arrow.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-50 article-col-right left">
+                        <h3>Europes most visited places</h3>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus dolore dignissimos ipsam, id, quod nihil pariatur quisquam odit dicta sint neque inventore beatae delectus voluptates fugiat? Quam, exercitationem repellat?</P>
+                        <a class="btn btn-secondary" href="">Continue Reading</a>
+                    </div>
+                </article>
+                <article class="flex article">
+                    <div class="flex-50 article-col-right right bg-secondary">
+                        <h3>Asia's most famous places</h3>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus dolore dignissimos ipsam, id, quod nihil pariatur quisquam odit dicta sint neque inventore beatae delectus voluptates fugiat? Quam, exercitationem repellat?</P>
+                        <a class="btn btn-secondary" href="">Continue Reading</a>
+                    </div>
+                    <div class="flex-50 font-0 article-col-left">
+                        <img src="assets/media/p6.jpg" alt="" width="600px" height="400px">
+                        <div class="flex justify-end nav-btn-container nav-btn-container-left">
+                            <div class="nav-btn center">
+                                <div class="nav-btn-icon center">
+                                    <img src="assets/media/left-arrow.png" alt="">
+                                </div>
+                            </div>
+                            <div class="nav-btn center">
+                                <div class="nav-btn-icon center">
+                                    <img src="assets/media/right-arrow.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="flex article">
+                    <div class="flex-50 font-0 article-col-left">
+                        <img src="assets/media/p7.jpg" alt="" width="600px" height="400px">
+                        <div class="flex justify-end nav-btn-container nav-btn-container-right">
+                            <div class="nav-btn center">
+                                <div class="nav-btn-icon center">
+                                    <img src="assets/media/left-arrow.png" alt="">
+                                </div>
+                            </div>
+                            <div class="nav-btn center">
+                                <div class="nav-btn-icon center">
+                                    <img src="assets/media/right-arrow.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-50 article-col-right left">
+                        <h3>America's most famous places</h3>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus dolore dignissimos ipsam, id, quod nihil pariatur quisquam odit dicta sint neque inventore beatae delectus voluptates fugiat? Quam, exercitationem repellat?</P>
+                        <a class="btn btn-secondary" href="">Continue Reading</a>
+                    </div>
+                </article>
+            </section>
+            <!-- maps -->
+            <section class="flex maps">
+                <div class="grow text-center font-0">
+                    <img src="assets/media/north-america.png" width="200px" height="190px" alt="maps" />
+                </div>
+                <div class="grow grow text-center">
+                    <img src="assets/media/america.jpg" width="200px" alt="maps" height="190px" />
+                </div>
+                <div class="grow grow text-center">
+                    <img src="assets/media/europe.png" width="200px" alt="maps" height="190px" />
+                </div>
+                <div class="grow grow text-center">
+                    <img src="assets/media/asia.jpg" width="200px" alt="maps" height="190px" />
+                </div>
+                <div class="grow grow text-center">
+                    <img src="assets/media/south-africa.jpg" width="200px" alt="maps" height="190px" />
+                </div>
+                <div class="grow grow text-center">
+                    <img src="assets/media/south-america.png" width="200px" height="190px" alt="maps" />
+                </div>
+            </section>
+            <!-- recommended places -->
+            <section id="recommended" class="padding recommended">
+                <div class="flex recommended-items item-stretch">
+                    <div class="flex-30 font-0">
+                        <img src="assets/media/10.jpg" height="200px" alt="" />
+                    </div>
+                    <div class="flex-50 recommended-items-content">
+                        <h3>Asia Resort Hotel</h3>
+                        <h4>Singapore</h4>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum alias quae, suscipit consequuntur tenetur option.</P>
+                    </div>
+                    <div class="flex-20 recommended-items-pricing center column">
+                        <h4>$440</h4>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="flex recommended-items item-stretch">
+                    <div class="flex-30 font-0">
+                        <img src="assets/media/p2.jpg" height="200px" alt="" />
+                    </div>
+                    <div class="flex-50 recommended-items-content">
+                        <h3>nullan rget est a nisl</h3>
+                        <h4>Singapore</h4>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum alias quae, suscipit consequuntur tenetur option.</P>
+                    </div>
+                    <div class="flex-20 recommended-items-pricing center column">
+                        <h4>$450</h4>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="flex recommended-items item-stretch">
+                    <div class="flex-30 font-0">
+                        <img src="assets/media/p8.jpg" height="200px" alt="" />
+                    </div>
+                    <div class="flex-50 recommended-items-content">
+                        <h3>proin interdum ullamkropper</h3>
+                        <h4>Singapore</h4>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum alias quae, suscipit consequuntur tenetur option.</P>
+                    </div>
+                    <div class="flex-20 recommended-items-pricing center column">
+                        <h4>$460</h4>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="flex recommended-items item-stretch">
+                    <div class="flex-30 font-0">
+                        <img src="assets/media/p4.jpg" height="200px" alt="" />
+                    </div>
+                    <div class="flex-50 recommended-items-content">
+                        <h3>Lorem ipsum dolor sit </h3>
+                        <h4>Singapore</h4>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum alias quae, suscipit consequuntur tenetur option.</P>
+                    </div>
+                    <div class="flex-20 recommended-items-pricing center column">
+                        <h4>$470</h4>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a class="btn btn-primary">Show more places</a>
+                </div>
+            </section>
+            <!-- contact -->
+            <section id="contact" class="contact font-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14010.576628521669!2d77.2257809090429!3d28.610450160262985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2db961be393%3A0xf6c7ef5ee6dd10ae!2sIndia%20Gate%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1662985935198!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="overlay"></div>
+                <form>
+                    <fieldset>
+                        <div class="flex">
+                            <input  class="form-control flex-40" type="text" name="name" placeholder="Name" />
+                            <input class="form-control flex-40" type="email" name="email" placeholder="Email" />
+                        </div>
+                        <input class="form-control" type="text" name="subject" placeholder="Subject" />
+                        <textarea class="form-control" name="message" rows="6" placeholder="Message"></textarea>
+                    </fieldset>
+                    <input class="btn btn-primary" type="submit" value="Send Message now">
+                </form>
+            </section>
+            <footer class="footer padding text-center">
+                <small>
+                    copyright &COPY; 2020 Your Company.
+                </small>
+            </footer>
+        </div>
+    </main>
+    <footer>
+</body>
+</html> 

@@ -1,0 +1,77 @@
+body {
+    line-height: 1.5;
+}
+h1 {
+    text-align: center;
+    font-size: 64px;
+    padding: 34px 180px;
+}
+hr {
+    width: 500px;
+    border-style: dashed;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 32px 0;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    margin: 0 auto;
+    border: 20px solid blue;
+    outline: 10px solid black;
+    box-shadow: 0 0 0 30px palevioletred;
+}
+.marker-container {
+    text-align: center;
+    margin-top: 60px;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.padding {
+    background-color: skyblue;
+}
+.border {
+    background-color: black;
+}
+.margin {
+    background-color: brown;
+}
+.marker {
+    margin: 16px;
+    display: inline-block;
+} 
+/* exercise 02 */
+
+p {
+    text-align: center;
+    font-size: 24px;
+}
+.container {
+    width: 600px;
+    border: 1px solid grey;
+    margin:  24px auto;
+    font-size: 0px;
+}
+.childbox {
+    width:180px;
+    height: 100px;
+    margin: 10px;
+    background-color: grey;
+    display: inline-block;
+}
+.border {
+    border: 1px solid black;
+}
+.border-box {
+    box-sizing: border-box;
+}
